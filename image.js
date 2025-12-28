@@ -11,3 +11,4 @@ async function generateImage() {
   const data = await res.json();
   img.src = data.url;
 }
+fetch("https://ki-tools-backend.onrender.com/image")

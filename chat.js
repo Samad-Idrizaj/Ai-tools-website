@@ -15,3 +15,4 @@ async function sendMessage() {
 
   input.value = "";
 }
+fetch("https://ki-tools-backend.onrender.com/chat")

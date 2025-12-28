@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  background: #0f172a;
+  color: white;
+  font-family: Arial;
+}
+
+header {
+  background: #020617;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: #38bdf8;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+.card {
+  max-width: 600px;
+  margin: 40px auto;
+  background: #020617;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+.user { color: #38bdf8; }
+.bot { color: #a5f3fc; }
